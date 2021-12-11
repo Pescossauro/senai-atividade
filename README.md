@@ -1,6 +1,31 @@
-Hroad-software-developer
-Repositório criado para a empresa Hroad, empresa de desenvolvimento de software. git init git config --glogal.user (nome usuário) git config --global.email (email do usuário) git status git add . git commit -m "descrição do commit" git help ==criação do repositório remoto== git remote add origin git@github.com:Stevecsob/Hroad-software-developer.git git remote -v origin git@github.com:Stevecsob/Hroad-software-developer.git (fetch) origin git@github.com:Stevecsob/Hroad-software-developer.git (push) git push -u origin master *necessário validar chave ssh no terminal
+Criado o Repositório local chamado senai-atividade01 utilizando o comando: git init
 
-programador01 adicionou novas funcionalidades em uma branch chamada "programador01"
+Criado um arquivo chamado arquivo-rastreado-atividade01.txt dentro da pasta do repositório local
 
-programadora01 entrou no projeto da Hroad e realizou algumas adições no código fonte
+Adcionado o arquivo arquivo-rastreado-atividade01.txt ao staging com o comando: git add "arquivo-rastreado-atividade01.txt"
+
+Criado o repositório no gitHub.
+
+adcionado o local do repositório do github no repositório local com o comando: git remote add origin git@github.com:AlanBrno/Senai-Atividade01.git"
+
+alterado o nome do repostório master para main como recomendado pelo github com o comando: git branch -M main
+
+commit feito utilizando o comando: git commit -m "comentário do commit" ( comentário atribuido ao commit "Meu primeiro arquivo rastreado" )
+
+commit enviado para o repositório do github com o comando: git push -u origin main
+
+Criado o Arquivo README.md dentro da pasta do repositório local.
+
+checkado alteração na pasta local com o comando: git status
+
+adcionado o arquivo alterado no staging com o comando: git add ( esse comando envia todos os arquivos alterados no repositório para o staging facilitando quando for necessário enviar vários arquivos alterados).
+
+criado novo commit "Readme Adcionado" com o comando: git commit -m "adcionado README"
+
+Enviado o Readme para o repositório do GitHub. comando: push -u origin main
+
+Criado o arquivo .gitignore ( esse arquivo serve para orientar arquivos que desejamos que seja ignorada qualquer alteração no mesmo, basta inserir o nome do arquivo e o arquivo será ignorado)
+
+criada nova branch: são ramificações para que a pasta Trunk ( pasta principal do projeto ) não seja alterada, com o comando:
+
+git checkout -b "novabranch"
