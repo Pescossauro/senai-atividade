@@ -13,7 +13,7 @@ Adcionado o arquivo Atividade-Encontro-Remoto.txt ao staging com o comando: git 
 
 Criado o repositório no gitHub.
 
-adcionado o local do repositório do github no repositório local com o comando: git remote add origin https://github.com/AlanBrno/Atividade-Encontro-Remoto.git"
+adcionado o local do repositório do github no repositório local com o comando: git remote add origin https://github.com/Pescossauro/senai-atividade/edit/main/README.md
 
 alterado o nome do repostório master para main como recomendado pelo github com o comando: git branch -M main
 
